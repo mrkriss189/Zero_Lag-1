@@ -1,0 +1,33 @@
+<!-- app.component.html -->
+<div class="app-container">
+  <header>
+    <nav>
+      <div class="row">
+        <div class="col-md-2">
+          <li><img src="../images/Logo.png" alt="Girl in a jacket" width="100px" height="50px"></li>
+        </div>
+        <div class="col-md-10">
+          <ul style="align-items: end;">
+            
+            <li><a routerLink="/">HOME</a></li>
+            <li><a routerLink="/about-us">ABOUT</a></li>
+            <li><a routerLink="/services">SERVICES</a></li>
+            <li><a routerLink="/careers">CAREERS</a></li>
+            <li><a routerLink="/support">SUPPORT</a></li>
+            <li><a routerLink="/contact">CONTACT US</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      
+    </nav>
+  </header>
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 ZeroLag Solutions. All rights reserved.</p>
+  </footer>
+</div>
